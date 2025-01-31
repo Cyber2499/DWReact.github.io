@@ -3,7 +3,7 @@ name: Deploy MkDocs to GitHub Pages
 on:
   push:
     branches:
-      - main  # Change to your main branch if it's named differently
+      - main  # Change to your default branch if different
 
 jobs:
   deploy:
@@ -20,8 +20,11 @@ jobs:
 
       - name: Install MkDocs and dependencies
         run: |
+          pip install --upgrade pip
           pip install mkdocs mkdocs-material
 
       - name: Build and Deploy MkDocs
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}  # Use the token here
         run: |
-          mkdocs gh-deploy --force
+          mkdocs gh-deploy --force --remote-branch gh-pages
