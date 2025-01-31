@@ -1,0 +1,37 @@
+site_name: Security Operations Playbooks
+
+theme: readthedocs
+
+nav:
+  - Home: index.md
+  - Response Stages:
+      - Preparation:
+          - Host: incident-response/preparation/host.md
+          - Network: incident-response/preparation/network.md
+          - Identity: incident-response/preparation/identity.md
+          - Email: incident-response/preparation/email.md
+      - Identification:
+          - Host: incident-response/identification/host.md
+          - Network: incident-response/identification/network.md
+          - Identity: incident-response/identification/identity.md
+          - Email: incident-response/identification/email.md
+      - Containment:
+          - Host: incident-response/containment/host.md
+          - Network: incident-response/containment/network.md
+          - Identity: incident-response/containment/identity.md
+          - Email: incident-response/containment/email.md
+      - Eradication:
+          - Host: incident-response/eradication/host.md
+          - Network: incident-response/eradication/network.md
+          - Identity: incident-response/eradication/identity.md
+          - Email: incident-response/eradication/email.md
+      - Recovery:
+          - Host: incident-response/recovery/host.md
+          - Network: incident-response/recovery/network.md
+          - Identity: incident-response/recovery/identity.md
+          - Email: incident-response/recovery/email.md
+      - Lessons Learned:
+          - Host: incident-response/lessons-learned/host.md
+          - Network: incident-response/lessons-learned/network.md
+          - Identity: incident-response/lessons-learned/identity.md
+          - Email: incident-response/lessons-learned/email.md
