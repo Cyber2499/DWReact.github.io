@@ -1,4 +1,4 @@
 <!-- File: docs/incident-response/containment/email.md -->
 # Containment - Email
 
-Content goes here.
+Make sure you delete the bad email
