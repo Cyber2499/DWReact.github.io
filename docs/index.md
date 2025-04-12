@@ -2,6 +2,9 @@
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
+!!! note
+    this is just a note
+
 ## Commands
 
 * `mkdocs new [dir-name]` - Create a new project.
