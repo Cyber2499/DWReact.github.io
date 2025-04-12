@@ -5,6 +5,12 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 !!! note
     this is just a note - test 2
 
+.. tip::
+   The flyout menu is a default implementation that works for every site.
+   You can access the full data used to construct the flyout,
+   and use that to integrate the data directly into your documentation theme for a nicer user experience.
+
+
 ## Commands
 
 * `mkdocs new [dir-name]` - Create a new project.
