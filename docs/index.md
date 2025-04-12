@@ -3,7 +3,7 @@
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 !!! note
-    this is just a note
+    this is just a note - test 2
 
 ## Commands
 
